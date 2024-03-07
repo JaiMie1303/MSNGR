@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.div_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.div_start {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.div_select_users {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #48a7ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_create_user {
+  margin-top: 10px;
+}
+
+.message {
+  margin-top: 10px;
+  color: #ff0000;
+}
+
+.div_user_rooms {
+  display: flex;
+}
+
+.div_user {
+  flex: 0 0 200px;
+  margin-right: 20px;
+}
+
+.div_rooms {
+  flex: 1;
+}
+
+.div_chat {
+  margin-top: 20px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+.rightdiv {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
